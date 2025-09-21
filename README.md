@@ -18,7 +18,7 @@ This project implements and characterizes a **6T SRAM cell in Cadence Virtuoso a
 - **Butterfly (SNM) midpoints**
   - **Conventional 6T:** 699.283 mV, 702.204 mV
   - **Stacked 6T:** 719.7273 mV, 708.2101 mV
-- **Functional verification:** Read 0 and 1 operations pass for both cells (BL/BLB differential observed; Q/QB transitions valid).
+- **Functional verification:** Read/Write 0 and 1 operations pass for both cells (BL/BLB differential observed; Q/QB transitions valid).
 - **Static power:** Power peaks at ~148 µW (typical static consumption observed for the conventional 6T at 90nm in this study).
 
 **Notes:** Stacked technique shows a substantial reduction in instantaneous PTP power at the cost of expected tradeoffs (possible increase in series resistance / delay) — measure read/write latencies to quantify that.
